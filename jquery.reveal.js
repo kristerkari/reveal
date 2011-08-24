@@ -35,7 +35,7 @@
 
       if (modalBg.length === 0) {
         modalBg = $('<div class="reveal-modal-bg" />').insertAfter(modal);
-        modalBg.fadeTo('fast', 0.8);
+        modalBg.css({'opacity': 0.8});
       }
 
       function unlockModal() {
