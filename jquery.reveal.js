@@ -108,7 +108,7 @@
         });
       }
 
-      $('body').keyup(function (event) {
+      $(document).keyup(function (event) {
         if (event.which === 27) { // 27 is the keycode for the Escape key
           modal.trigger('reveal:close');
         }
