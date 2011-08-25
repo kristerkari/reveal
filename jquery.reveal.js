@@ -113,8 +113,7 @@
       });
 
       if (options.closeOnBackgroundClick) {
-        modalBg.css({"cursor": "pointer"});
-        modalBg.bind('click.modalEvent', function () {
+        modalBg.css({"cursor": "pointer"}).bind('click.modalEvent', function () {
           modal.trigger('reveal:close');
         });
       }
